@@ -13,6 +13,14 @@
 		A01AD431208DDBE400CFC0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01AD430208DDBE400CFC0B7 /* Assets.xcassets */; };
 		A01AD434208DDBE400CFC0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01AD432208DDBE400CFC0B7 /* LaunchScreen.storyboard */; };
 		A01AD437208DDBE400CFC0B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD436208DDBE400CFC0B7 /* main.m */; };
+		A01AD446208DDC3E00CFC0B7 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD43F208DDC3E00CFC0B7 /* TADotView.m */; };
+		A01AD447208DDC3E00CFC0B7 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD440208DDC3E00CFC0B7 /* TAPageControl.m */; };
+		A01AD448208DDC3E00CFC0B7 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD441208DDC3E00CFC0B7 /* TAAnimatedDotView.m */; };
+		A01AD449208DDC3E00CFC0B7 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD442208DDC3E00CFC0B7 /* TAAbstractDotView.m */; };
+		A01AD44D208DDC4800CFC0B7 /* LHCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD44A208DDC4800CFC0B7 /* LHCycleViewController.m */; };
+		A01AD44E208DDC4800CFC0B7 /* LHCycleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01AD44B208DDC4800CFC0B7 /* LHCycleViewController.xib */; };
+		A01AD453208DDC5200CFC0B7 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD450208DDC5100CFC0B7 /* SDCycleScrollView.m */; };
+		A01AD454208DDC5200CFC0B7 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD452208DDC5100CFC0B7 /* UIView+SDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,21 @@
 		A01AD433208DDBE400CFC0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A01AD435208DDBE400CFC0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A01AD436208DDBE400CFC0B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A01AD43E208DDC3E00CFC0B7 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		A01AD43F208DDC3E00CFC0B7 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		A01AD440208DDC3E00CFC0B7 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		A01AD441208DDC3E00CFC0B7 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		A01AD442208DDC3E00CFC0B7 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		A01AD443208DDC3E00CFC0B7 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		A01AD444208DDC3E00CFC0B7 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		A01AD445208DDC3E00CFC0B7 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		A01AD44A208DDC4800CFC0B7 /* LHCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCycleViewController.m; sourceTree = "<group>"; };
+		A01AD44B208DDC4800CFC0B7 /* LHCycleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHCycleViewController.xib; sourceTree = "<group>"; };
+		A01AD44C208DDC4800CFC0B7 /* LHCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCycleViewController.h; sourceTree = "<group>"; };
+		A01AD44F208DDC5100CFC0B7 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		A01AD450208DDC5100CFC0B7 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		A01AD451208DDC5100CFC0B7 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		A01AD452208DDC5100CFC0B7 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +81,16 @@
 		A01AD426208DDBE300CFC0B7 /* LHCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				A01AD43D208DDC3E00CFC0B7 /* PageControl */,
 				A01AD427208DDBE300CFC0B7 /* AppDelegate.h */,
 				A01AD428208DDBE300CFC0B7 /* AppDelegate.m */,
+				A01AD44C208DDC4800CFC0B7 /* LHCycleViewController.h */,
+				A01AD44A208DDC4800CFC0B7 /* LHCycleViewController.m */,
+				A01AD44B208DDC4800CFC0B7 /* LHCycleViewController.xib */,
+				A01AD44F208DDC5100CFC0B7 /* SDCycleScrollView.h */,
+				A01AD450208DDC5100CFC0B7 /* SDCycleScrollView.m */,
+				A01AD451208DDC5100CFC0B7 /* UIView+SDExtension.h */,
+				A01AD452208DDC5100CFC0B7 /* UIView+SDExtension.m */,
 				A01AD42A208DDBE300CFC0B7 /* ViewController.h */,
 				A01AD42B208DDBE300CFC0B7 /* ViewController.m */,
 				A01AD42D208DDBE300CFC0B7 /* Main.storyboard */,
@@ -69,6 +100,21 @@
 				A01AD436208DDBE400CFC0B7 /* main.m */,
 			);
 			path = LHCycleScrollView;
+			sourceTree = "<group>";
+		};
+		A01AD43D208DDC3E00CFC0B7 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				A01AD43E208DDC3E00CFC0B7 /* TAAbstractDotView.h */,
+				A01AD43F208DDC3E00CFC0B7 /* TADotView.m */,
+				A01AD440208DDC3E00CFC0B7 /* TAPageControl.m */,
+				A01AD441208DDC3E00CFC0B7 /* TAAnimatedDotView.m */,
+				A01AD442208DDC3E00CFC0B7 /* TAAbstractDotView.m */,
+				A01AD443208DDC3E00CFC0B7 /* TADotView.h */,
+				A01AD444208DDC3E00CFC0B7 /* TAAnimatedDotView.h */,
+				A01AD445208DDC3E00CFC0B7 /* TAPageControl.h */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A01AD434208DDBE400CFC0B7 /* LaunchScreen.storyboard in Resources */,
+				A01AD44E208DDC4800CFC0B7 /* LHCycleViewController.xib in Resources */,
 				A01AD431208DDBE400CFC0B7 /* Assets.xcassets in Resources */,
 				A01AD42F208DDBE300CFC0B7 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A01AD42C208DDBE300CFC0B7 /* ViewController.m in Sources */,
+				A01AD446208DDC3E00CFC0B7 /* TADotView.m in Sources */,
+				A01AD448208DDC3E00CFC0B7 /* TAAnimatedDotView.m in Sources */,
+				A01AD454208DDC5200CFC0B7 /* UIView+SDExtension.m in Sources */,
+				A01AD449208DDC3E00CFC0B7 /* TAAbstractDotView.m in Sources */,
+				A01AD453208DDC5200CFC0B7 /* SDCycleScrollView.m in Sources */,
+				A01AD447208DDC3E00CFC0B7 /* TAPageControl.m in Sources */,
+				A01AD44D208DDC4800CFC0B7 /* LHCycleViewController.m in Sources */,
 				A01AD437208DDBE400CFC0B7 /* main.m in Sources */,
 				A01AD429208DDBE300CFC0B7 /* AppDelegate.m in Sources */,
 			);

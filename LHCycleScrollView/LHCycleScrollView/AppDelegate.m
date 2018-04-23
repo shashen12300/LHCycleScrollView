@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LHCycleViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    LHCycleViewController *vc = [[LHCycleViewController alloc] init];
+    vc.title = @"无限轮播";
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
     return YES;
 }
 
